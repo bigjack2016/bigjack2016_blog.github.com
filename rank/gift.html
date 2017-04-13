@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gift</title>
+    <script src="js/flexible.js"></script>
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/base.css">
+</head>
+<body>
+<div id="app">
+    <div class="gift_head">
+        <img src="images/arrow.png" class="return_arrow">
+        <a class="gift_recent">最近赠送</a>
+    </div>
+    <div class="gift_info">
+        <ul class="gift_list">
+            <li class="list_head">
+                <span class="roleName">角色名</span>
+                <span class="account">赠送数量</span>
+            </li>
+            <li class="list_addnew"><img src="images/add.png" class="add_plus"></li>
+            <li class="total_account">总计：0</li>
+        </ul>
+    </div>
+    <div class="give_button">
+        <a class="give_confirm">确定</a>
+    </div>
+    <div class="recent_give" style="display: none">
+        <ul class="search_user">
+            <input type="input" class="input_username" placeholder="角色名后六位" value="">
+            <a class="search_button">搜索</a>
+        </ul>
+        <ul class="recent_gift_list">
+            <li class="list_head">
+                <span class="give_roleName">赠送角色名</span>
+                <span class="give_account">赠送数量</span>
+                <span class="give_date">赠送时间</span>
+                <span class="give_gift">赠送</span>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+<script src="js/common.js"></script>
+</html>

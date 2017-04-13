@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bindphone</title>
+    <script src="js/flexible.js"></script>
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/base.css">
+</head>
+<body>
+<div id="app">
+    <div class="backstage_info">
+        <div class="backstage_userheadpic"></div>
+        <ul class="backstage_userinfo">
+            <li class="backstage_usernickname"></li>
+            <li class="backstage_userrolename"></li>
+            <li class="backstage_userdiamond"></li>
+        </ul>
+    </div>
+    <div class="backstage_userclick">
+        <ul>
+            <li class="backstage_usergive">
+                <span><img src="images/give.png" class="give">赠送</span>
+            </li>
+            <li class="rule"></li>
+            <li class="backstage_userrecord">
+                <span><img src="images/record.png" class="record">交易记录</span>
+            </li>
+        </ul>
+    </div>
+    <div class="backstage_container container" style="display: none;">
+        <ul class="check_phoneNum">
+            <li class="check_cn_characters">开启手机登录验证</li>
+            <span class="open_protect" style="display: none"><div class="open_square"></div></span>
+            <span class="off_protect" style="display: none"><div class="off_square"></div></span>
+        </ul>
+        <ul class="littletip">开启后每次登录短信验证</ul>
+        <ul class="bindsuccess_button">
+            <a class="bindphone_button">绑定手机</a>
+        </ul>
+    </div>
+    <div class="backstage_container1 container" style="display: none;">
+        <ul class="bind_phoneNum">
+            <li class="bind_cn_characters">手机号：</li>
+            <input type="text" class="bind_phone_num" value="">
+            <li class="bind_sendCode">发送验证码</li>
+        </ul>
+        <ul class="bind_code">
+            <li class="bind_cn_characters">验证码：</li>
+            <input type="input" name="name" value="" class="bind_code_num">
+        </ul>
+        <ul class="bind_button">
+            <a class="bind_confirm">确定</a>
+            <a class="bind_return">返回</a>
+        </ul>
+    </div>
+    <div class="dialog" style="display: none;">
+        <div class="backstage_fade" style="width:100%;height:100%;background-color:#000;">
+        </div>
+        <div class="backstage_dialog">
+            <div class="dialog-content">
+                绑定成功
+            </div>
+            <a class="dialog-confirm">确&nbsp;&nbsp;定</a>
+        </div>
+    </div>
+    <div class="backstage_container2 container" style="display: none;">
+        <ul class="bindsuccess_phoneNum">
+            <li class="bindsuccess_cn_characters">已绑定</li>
+            <li class="bindsuccess_phone_num"></li>
+        </ul>
+        <ul class="bindsuccess_button">
+            <a class="bindsuccess_unbind">解除绑定</a>
+            <a class="bindsuccess_return">返回</a>
+        </ul>
+    </div>
+    <div class="backstage_container3 container" style="display: none;">
+        <div class="tips">请使用已绑定手机<span class="myPhoneNum"></span>获取验证码短信</div>
+        <div class="get_code">
+            <ul>
+                <li class="getCode">获取验证码</li>
+                <input type="input" name="name" value="" class="get_unbind_code_num">
+            </ul>
+        </div>
+        <ul class="unbind_button">
+            <li class="unbind_click">解除绑定</li>
+        </ul>
+    </div>
+    <div class="dialog2" style="display: none;">
+        <div class="backstage_fade" style="width:100%;height:100%;background-color:#000;">
+        </div>
+        <div class="backstage_dialog">
+            <div class="dialog-content">
+                解除绑定成功
+            </div>
+            <a class="dialog2-confirm">确&nbsp;&nbsp;定</a>
+        </div>
+    </div>
+    <div class="dialog3" style="display: none;">
+        <div class="backstage_fade" style="width:100%;height:100%;background-color:#000;">
+        </div>
+        <div class="backstage_dialog">
+            <div class="dialog3-content">
+                为了您的账户安全请绑手机
+            </div>
+            <a class="dialog3-confirm">绑&nbsp;&nbsp;定</a>
+            <a class="dialog3-return">取&nbsp;&nbsp;消</a>
+        </div>
+    </div>
+    <div class="backstage_container4 container" style="display: none;">
+        <div class="tips">请使用已绑定手机<span class="myPhoneNum"></span>获取验证码短信</div>
+        <div class="get_code">
+            <ul>
+                <li class="getCode1">获取验证码</li>
+                <input type="input" name="name" value="" class="get_code_num">
+            </ul>
+        </div>
+        <ul class="login_confirm">
+            <li class="right">确&nbsp;&nbsp;定</li>
+            <li class="cancel">取&nbsp;&nbsp;消</li>
+        </ul>
+    </div>
+</div>
+</body>
+<script src="js/common.js"></script>
+</html>

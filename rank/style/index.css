@@ -1,0 +1,772 @@
+html {
+  height: 100%; }
+
+body {
+  font-family: "Helvetica", "sans-serif";
+  height: 100%;
+  position: relative;
+  -webkit-transform: translate(-50%, 0);
+  left: 50%; }
+
+#app {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  background-color: #ececec; }
+
+.backstage_topview {
+  width: 100%;
+  height: 13.01563rem;
+  background-color: #4a8ed9; }
+
+.backstage_circle {
+  position: relative;
+  width: 6.09375rem;
+  height: 6.09375rem;
+  background-color: #3a77ba;
+  -webkit-border-radius: 3.04688rem;
+  margin: 0 auto;
+  top: 2.73438rem;
+  font-family: "Microsoft YaHei";
+  font-size: 0.75rem;
+  color: #fff;
+  text-align: center; }
+
+.backstage_circle p {
+  letter-spacing: 0.1875rem;
+  position: relative;
+  top: 2.10938rem; }
+
+.backstage_login_button {
+  width: 8.59375rem;
+  margin: 0 auto;
+  height: 4.14063rem;
+  font-size: 0.46875rem;
+  font-family: "Microsoft YaHei";
+  letter-spacing: 0.0625rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1.34375rem; }
+
+.wechat_login {
+  background: #1bb862;
+  height: 1.34375rem;
+  width: 8.59375rem;
+  -webkit-border-radius: 0.67188rem;
+  float: left;
+  margin-top: 0.625rem; }
+
+.account_login {
+  background: #4a8ed9;
+  height: 1.34375rem;
+  width: 8.59375rem;
+  -webkit-border-radius: 0.67188rem;
+  float: left;
+  margin-top: 0.39063rem; }
+
+.rule {
+  width: 0.03125rem;
+  height: 0.70313rem;
+  float: left;
+  background: #099b4a;
+  position: relative;
+  top: 0.25rem; }
+
+.container {
+  width: 100%;
+  position: relative; }
+
+.backstage_container3 {
+  height: 9.5rem; }
+
+.bind_code,
+.bind_phoneNum {
+  width: 100%;
+  height: 1.45313rem;
+  background-color: #fff;
+  border-bottom: 0.03125rem solid #ececec;
+  font-family: "Microsoft YaHei";
+  line-height: 1.45313rem;
+  color: #666;
+  font-size: 0.39063rem; }
+
+.check_phoneNum {
+  width: 100%;
+  height: 1.45313rem;
+  background-color: #fff;
+  border-bottom: 0.03125rem solid #ececec;
+  font-family: "Microsoft YaHei";
+  line-height: 1.45313rem;
+  color: #666;
+  font-size: 0.46875rem; }
+
+.littletip {
+  width: 4.6875rem;
+  height: 0.3125rem;
+  font-family: "Microsoft YaHei";
+  line-height: 0.3125rem;
+  color: #666;
+  font-size: 0.39063rem;
+  margin: 0.3125rem auto; }
+
+.bind_cn_characters {
+  width: 2.57813rem;
+  height: 1.45313rem;
+  float: left;
+  letter-spacing: 0.0625rem;
+  text-align: center; }
+
+.check_cn_characters {
+  width: 4.53125rem;
+  height: 1.45313rem;
+  float: left;
+  text-align: center; }
+
+.bind_sendCode {
+  width: 2.23438rem;
+  height: 1.01563rem;
+  float: right;
+  background-color: #4a8ed9;
+  color: #fff;
+  -webkit-border-radius: 4px;
+  text-align: center;
+  line-height: 1.01563rem;
+  margin: 0.25rem 0.39063rem 0.23438rem 0; }
+
+.bind_confirm {
+  background: #1bb862;
+  height: 1.34375rem;
+  width: 8.59375rem;
+  -webkit-border-radius: 0.67188rem;
+  float: left;
+  margin-top: 0.625rem; }
+
+.give_confirm {
+  background: #1bb862;
+  height: 1.34375rem;
+  width: 8.59375rem;
+  -webkit-border-radius: 0.67188rem;
+  float: left;
+  margin-top: 0.625rem; }
+
+.bind_return {
+  background: #4a8ed9;
+  height: 1.34375rem;
+  width: 8.59375rem;
+  -webkit-border-radius: 0.67188rem;
+  float: left;
+  margin-top: 0.39063rem; }
+
+.bind_code_num,
+.bind_phone_num {
+  height: 1.01563rem;
+  width: 4.6875rem;
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+  font-size: 0.39063rem;
+  color: #666;
+  letter-spacing: 0.0625rem;
+  line-height: 1.01563rem;
+  margin: 0.25rem 0 0.23438rem; }
+
+.bind_button {
+  width: 8.59375rem;
+  margin: 0 auto;
+  height: 4.14063rem;
+  font-size: 0.46875rem;
+  font-family: "Microsoft YaHei";
+  letter-spacing: 0.0625rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1.34375rem;
+  margin-top: 1.79688rem; }
+
+.give_button {
+  width: 8.59375rem;
+  margin: 0 auto;
+  height: 4.14063rem;
+  font-size: 0.46875rem;
+  font-family: "Microsoft YaHei";
+  letter-spacing: 0.0625rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1.34375rem;
+  margin-top: 1.79688rem; }
+
+.backstage_info {
+  width: 100%;
+  height: 6.32813rem;
+  background-color: #4a8ed9; }
+
+.backstage_userheadpic {
+  position: relative;
+  width: 1.84375rem;
+  height: 1.84375rem;
+  background-color: #fff;
+  -webkit-border-radius: 0.92188rem;
+  margin: 0 auto;
+  top: 1.9375rem; }
+
+.backstage_userinfo {
+  width: 7.10938rem;
+  height: 1.375rem;
+  margin: 0 auto;
+  position: relative;
+  color: #fff;
+  font-size: 0.35938rem;
+  font-family: "Microsoft YaHei";
+  letter-spacing: 0.04688rem;
+  top: 2.57813rem; }
+
+.backstage_usernickname {
+  width: 3.375rem;
+  height: 0.6875rem;
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+.backstage_userrolename {
+  width: 3.375rem;
+  height: 0.6875rem;
+  float: left;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+.backstage_userdiamond {
+  width: 3.375rem;
+  height: 0.6875rem;
+  float: right;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+.backstage_userclick {
+  height: 1.17188rem;
+  width: 100%;
+  background-color: #1bb861;
+  color: #fff;
+  font-family: "Microsoft YaHei";
+  letter-spacing: 0.04688rem; }
+
+.backstage_usergive {
+  float: left;
+  width: 50%;
+  height: 1.17188rem; }
+
+.backstage_userrecord {
+  float: right;
+  width: 49%;
+  height: 1.17188rem; }
+
+.backstage_usergive span {
+  float: right;
+  width: 3.4375rem;
+  height: 1.17188rem;
+  text-indent: 0.23438rem;
+  line-height: 1.17188rem;
+  font-size: 0.46875rem;
+  letter-spacing: 0.0625rem; }
+
+.backstage_userrecord span {
+  width: 3.4375rem;
+  height: 1.17188rem;
+  float: left;
+  margin-left: 0.78125rem;
+  text-indent: 0.23438rem;
+  line-height: 1.17188rem;
+  font-size: 0.46875rem;
+  letter-spacing: 0.0625rem; }
+
+.backstage_userclick img {
+  float: left;
+  margin-top: 0.3125rem; }
+
+.give {
+  width: 0.6875rem;
+  height: 0.45313rem; }
+
+.record {
+  width: 0.46875rem;
+  height: 0.5rem; }
+
+.backstage_fade {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.7; }
+
+.backstage_dialog {
+  width: 8.59375rem;
+  height: 5.375rem;
+  background-color: #ececec;
+  position: absolute;
+  top: 5.9375rem;
+  left: 0.70313rem;
+  -webkit-border-radius: 0.15625rem;
+  font-size: 0.54688rem;
+  font-family: "Microsoft YaHei"; }
+
+.dialog-content {
+  color: #666;
+  width: 3.59375rem;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 1.6875rem; }
+
+.dialog-confirm, .dialog2-confirm {
+  width: 4.64063rem;
+  height: 1.35938rem;
+  background-color: #4a8ed9;
+  margin: 0 auto;
+  color: #fff;
+  display: block;
+  text-align: center;
+  line-height: 1.35938rem;
+  -webkit-border-radius: 0.15625rem;
+  position: relative;
+  top: 2.76563rem; }
+
+.bindsuccess_phoneNum {
+  width: 100%;
+  height: 1.45313rem;
+  background-color: #fff;
+  border-bottom: 0.03125rem solid #ececec;
+  font-family: "Microsoft YaHei";
+  color: #666;
+  font-size: 0.39063rem; }
+
+.bindsuccess_cn_characters {
+  width: 2.14063rem;
+  height: 0.85938rem;
+  background-color: #bbb;
+  float: left;
+  color: #ececec;
+  line-height: 0.85938rem;
+  letter-spacing: 0.0625rem;
+  text-align: center;
+  -webkit-border-radius: 0.07813rem;
+  margin: 0.3125rem 0 0 0.15625rem; }
+
+.bindsuccess_unbind {
+  background: #4a8ed9;
+  height: 1.34375rem;
+  width: 8.59375rem;
+  -webkit-border-radius: 0.67188rem;
+  float: left;
+  margin-top: 0.625rem; }
+
+.bindsuccess_return {
+  background: #1bb862;
+  height: 1.34375rem;
+  width: 8.59375rem;
+  -webkit-border-radius: 0.67188rem;
+  float: left;
+  margin-top: 0.39063rem; }
+
+.bindsuccess_phone_num {
+  height: 1.45313rem;
+  width: 4.6875rem;
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+  font-size: 0.39063rem;
+  color: #666;
+  letter-spacing: 0.0625rem;
+  line-height: 1.45313rem;
+  float: left;
+  margin-left: 0.39063rem; }
+
+.bindsuccess_button {
+  width: 8.59375rem;
+  margin: 0 auto;
+  height: 4.14063rem;
+  font-size: 0.46875rem;
+  font-family: "Microsoft YaHei";
+  letter-spacing: 0.0625rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1.34375rem;
+  margin-top: 3.25rem; }
+
+.tips {
+  width: 7.5rem;
+  font-size: 0.39063rem;
+  color: #666;
+  font-family: "Microsoft YaHei";
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: 0.04688rem;
+  margin-top: 0.3125rem; }
+
+.get_code {
+  width: 100%;
+  height: 1.45313rem;
+  position: relative;
+  top: 0.46875rem; }
+
+.get_code ul {
+  width: 7.10938rem;
+  height: 1.45313rem;
+  margin: 0 auto;
+  font-family: "Microsoft YaHei"; }
+
+.getCode {
+  width: 2.76563rem;
+  height: 1.17188rem;
+  float: left;
+  background-color: #4a8ed9;
+  -webkit-border-radius: 4px;
+  text-align: center;
+  line-height: 1.17188rem;
+  margin-top: 0.25rem;
+  font-family: "Microsoft YaHei";
+  letter-spacing: 0.03125rem;
+  color: #fff;
+  list-style-type: none;
+  font-size: 0.42188rem;
+  float: left; }
+
+.getCode1 {
+  width: 2.76563rem;
+  height: 1.17188rem;
+  float: left;
+  background-color: #4a8ed9;
+  -webkit-border-radius: 4px;
+  text-align: center;
+  line-height: 1.17188rem;
+  margin-top: 0.25rem;
+  font-family: "Microsoft YaHei";
+  letter-spacing: 0.03125rem;
+  color: #fff;
+  list-style-type: none;
+  font-size: 0.42188rem;
+  float: left; }
+
+.get_code_num {
+  height: 1.09375rem;
+  width: 3.98438rem;
+  margin-top: 0.25rem;
+  float: right;
+  font-size: 0.46875rem;
+  letter-spacing: 0.04688rem;
+  color: #666;
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+  text-align: center; }
+
+.get_unbind_code_num {
+  height: 1.09375rem;
+  width: 3.98438rem;
+  margin-top: 0.25rem;
+  float: right;
+  font-size: 0.46875rem;
+  letter-spacing: 0.04688rem;
+  color: #666;
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+  text-align: center; }
+
+.unbind_button {
+  width: 8.59375rem;
+  margin: 0 auto;
+  height: 1.34375rem;
+  font-size: 0.46875rem;
+  font-family: "Microsoft YaHei";
+  letter-spacing: 0.0625rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1.34375rem;
+  position: relative;
+  top: 3.95313rem; }
+
+.unbind_click {
+  background: #4a8ed9;
+  height: 1.34375rem;
+  width: 8.59375rem;
+  -webkit-border-radius: 0.67188rem;
+  float: left; }
+
+.bindphone_button {
+  background: #1bb862;
+  height: 1.34375rem;
+  width: 8.59375rem;
+  -webkit-border-radius: 0.67188rem;
+  float: left;
+  position: relative;
+  top: 1.76563rem; }
+
+.login_confirm {
+  height: 1.35938rem;
+  width: 8.125rem;
+  position: relative;
+  margin: 0 auto;
+  font-family: "Microsoft YaHei";
+  font-size: 0.46875rem;
+  top: 2.34375rem; }
+
+.right {
+  width: 3.85938rem;
+  height: 1.20313rem;
+  background-color: #1bb861;
+  color: #fff;
+  display: block;
+  text-align: center;
+  line-height: 1.20313rem;
+  -webkit-border-radius: 0.15625rem;
+  top: 2.76563rem;
+  float: left; }
+
+.cancel {
+  width: 3.85938rem;
+  height: 1.20313rem;
+  background-color: #4a8ed9;
+  color: #fff;
+  display: block;
+  text-align: center;
+  line-height: 1.20313rem;
+  -webkit-border-radius: 0.15625rem;
+  top: 2.76563rem;
+  float: right; }
+
+.gift_head {
+  width: 100%;
+  height: 1.40625rem;
+  background-color: #4a8ed9; }
+
+.return_arrow {
+  width: 0.82813rem;
+  height: 0.82813rem;
+  float: left;
+  margin: 0.28125rem 0 0 0.28125rem; }
+
+.gift_recent {
+  font-size: 0.46875rem;
+  color: #fff;
+  letter-spacing: 0.0625rem;
+  float: right;
+  margin: 0.3125rem 0.3125rem 0 0;
+  font-family: "Microsoft YaHei"; }
+
+.gift_info {
+  background-color: #fff;
+  -webkit-border-radius: 0.39063rem;
+  width: 9.53125rem;
+  min-height: 2.6875rem;
+  margin: 0 auto;
+  margin-top: 0.23438rem;
+  font-family: "Microsoft YaHei"; }
+
+.gift_list li {
+  border-bottom: 0.04688rem solid #ececec;
+  height: 1.34375rem;
+  width: 9.53125rem;
+  line-height: 1.34375rem; }
+
+.roleName {
+  font-size: 0.42188rem;
+  float: left;
+  margin-left: 2.89063rem;
+  color: #333; }
+
+.account {
+  font-size: 0.42188rem;
+  float: right;
+  margin-right: 2.26563rem;
+  color: #333; }
+
+.list_addnew {
+  height: 1.34375rem;
+  width: 9.53125rem; }
+
+.add_plus {
+  width: 0.54688rem;
+  height: 0.54688rem;
+  margin: 0.34375rem 0 0 0.625rem; }
+
+.list_num {
+  font-size: 0.54688rem;
+  color: #c9c9c9;
+  height: 1.34375rem;
+  line-height: 1.34375rem;
+  float: left;
+  width: 1.875rem;
+  text-align: center; }
+
+.rolename_data, .account_data {
+  font-size: 0.39063rem;
+  color: #666;
+  height: 1.34375rem;
+  line-height: 1.34375rem;
+  float: left;
+  letter-spacing: 0.04688rem;
+  outline: none;
+  border: none; }
+
+.rolename_data {
+  width: 3.20313rem;
+  text-align: center; }
+
+.account_data {
+  width: 2.65625rem;
+  text-align: center; }
+
+.delete_data {
+  height: 1.34375rem;
+  line-height: 1.34375rem;
+  float: right;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin: 0.42188rem 0.39063rem 0 0; }
+
+.total_account {
+  font-size: 0.39063rem;
+  text-align: center; }
+
+.recent_gift_list {
+  background-color: #fff;
+  width: 9.53125rem;
+  min-height: 2.6875rem;
+  margin: 0 auto;
+  -webkit-border-radius: 0.39063rem;
+  margin-top: 0.23438rem; }
+
+.give_img {
+  width: 0.65625rem;
+  height: 0.42188rem;
+  float: right;
+  margin: 0.40625rem 0.84375rem 0 0; }
+
+.give_roleName,
+.give_account,
+.give_date,
+.give_gift {
+  font-size: 0.39063rem;
+  color: #000;
+  height: 1.34375rem;
+  line-height: 1.34375rem;
+  float: left;
+  font-family: "Microsoft YaHei";
+  text-align: center;
+  margin-left: 0.70313rem; }
+
+.give_date_data {
+  width: 2.96875rem;
+  height: 1.09375rem;
+  float: left;
+  line-height: 0.625rem;
+  text-align: center;
+  font-size: 0.35938rem; }
+
+.recent_gift_list li {
+  border-bottom: 0.04688rem solid #ececec;
+  height: 1.34375rem;
+  width: 9.53125rem;
+  line-height: 1.34375rem; }
+
+.recent_list_data {
+  font-size: 0.39063rem;
+  color: #666;
+  letter-spacing: 0.03125rem; }
+
+.give_rolename_data {
+  float: left;
+  width: 3.28125rem;
+  text-align: center;
+  height: 1.34375rem; }
+
+.give_account_data {
+  float: left;
+  width: 1.64063rem;
+  text-align: center;
+  height: 1.34375rem;
+  line-height: 1.34375rem; }
+
+.search_user {
+  height: 0.9375rem;
+  width: 9.53125rem;
+  margin: 0 auto;
+  margin-top: 0.23438rem; }
+
+.input_username {
+  border: none;
+  outline: none;
+  width: 7.26563rem;
+  height: 0.9375rem;
+  float: left;
+  font-size: 0.39063rem;
+  font-family: "Microsoft YaHei";
+  text-indent: 0.39063rem; }
+
+.input_username::-webkit-input-placeholder {
+  text-align: center;
+  line-height: 0.5rem;
+  background: url("../images/search.png") no-repeat;
+  background-size: 0.46875rem 0.46875rem;
+  background-position: 2.10938rem 0.04688rem; }
+
+.search_button {
+  width: 2.14063rem;
+  height: 0.9375rem;
+  line-height: 0.9375rem;
+  float: right;
+  color: #fff;
+  text-align: center;
+  font-size: 0.46875rem;
+  font-family: "Microsoft YaHei";
+  background-color: #3a77ba;
+  -webkit-border-radius: 0.10938rem; }
+
+.search_img {
+  width: 0.46875rem;
+  height: 0.46875rem;
+  position: absolute;
+  top: 1.875rem;
+  left: 2.03125rem; }
+
+.open_square {
+  height: 0.65625rem;
+  width: 0.65625rem;
+  background-color: #fff;
+  -webkit-border-radius: 0.32813rem;
+  float: right;
+  margin: 0.04688rem 0.04688rem 0 0; }
+
+.off_square {
+  height: 0.65625rem;
+  width: 0.65625rem;
+  background-color: #fff;
+  -webkit-border-radius: 0.32813rem;
+  float: left;
+  margin: 0.04688rem 0 0 0.04688rem; }
+
+.open_protect {
+  height: 0.75rem;
+  width: 1.4375rem;
+  background-color: #4bd764;
+  -webkit-border-radius: 0.42188rem;
+  float: right;
+  margin: 0.35938rem 0.39063rem 0 0; }
+
+.off_protect {
+  height: 0.75rem;
+  width: 1.4375rem;
+  background-color: #c8c8c8;
+  -webkit-border-radius: 0.42188rem;
+  float: right;
+  margin: 0.35938rem 0.39063rem 0 0; }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,29 @@
+@function px2em($px, $base-font-size:133.4px) {
+  @if (unitless($px)) {
+    @warn "Assuming #{$px} to be in pixels, attempting to convert it into pixels for you";
+    @return px2em($px + 0px); // That may fail.
+  } @else if (unit($px) == em) {
+    @return $px;
+  }
+  @return ($px / $base-font-size) * 1rem;
+}
+@mixin font-dpr($font-size) {
+  font-size: floor($font-size/3);
+
+  [data-dpr="2"] & {
+    font-size: floor($font-size/3) *2;
+  }
+
+  [data-dpr="3"] & {
+    font-size: floor($font-size/3) *3;
+  }
+}
+@mixin box-sizing($border-box:border-box) {
+  -webkit-box-sizing: $border-box;
+  box-sizing: $border-box;
+}
+@mixin border-radius($px:50%) {
+  -webkit-border-radius: $px;
+  border-radius: $px;
+}
+$darkblue: #14141e;

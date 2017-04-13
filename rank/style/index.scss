@@ -1,0 +1,871 @@
+@import 'function.scss';
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Helvetica", "sans-serif";
+  height: 100%;
+  position: relative;
+  -webkit-transform: translate(-50%,0);
+  left:50%;
+}
+
+#app {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  background-color: #ececec;
+}
+
+.backstage_topview {
+  width: 100%;
+  height: px2em(833px);
+  background-color: #4a8ed9;
+}
+
+.backstage_circle {
+  position: relative;
+  width: px2em(390px);
+  height: px2em(390px);
+  background-color: #3a77ba;
+  -webkit-border-radius: px2em(195px);
+  margin: 0 auto;
+  top: px2em(175px);
+  font-family: "Microsoft YaHei";
+  font-size: px2em(48px);
+  color: #fff;
+  text-align: center;
+}
+
+.backstage_circle p {
+  letter-spacing: px2em(12px);
+  position: relative;
+  top: px2em(135px);
+}
+
+.backstage_login_button {
+  width: px2em(550px);
+  margin: 0 auto;
+  height: px2em(265px);
+  font-size: px2em(30px);
+  font-family: "Microsoft YaHei";
+  letter-spacing: px2em(4px);
+  color: #fff;
+  text-align: center;
+  line-height: px2em(86px);
+}
+
+.wechat_login {
+  background: #1bb862;
+  height: px2em(86px);
+  width: px2em(550px);
+  -webkit-border-radius: px2em(43px);
+  float: left;
+  margin-top: px2em(40px);
+}
+
+.account_login {
+  background: #4a8ed9;
+  height: px2em(86px);
+  width: px2em(550px);
+  -webkit-border-radius: px2em(43px);
+  float: left;
+  margin-top: px2em(25px);
+}
+
+.rule {
+  width: px2em(2px);
+  height: px2em(45px);
+  float: left;
+  background: #099b4a;
+  position: relative;
+  top: px2em(16px);
+}
+
+.container {
+  width: 100%;
+  position: relative;
+}
+
+.backstage_container3{
+  height: px2em(608px);
+}
+
+.bind_code,
+.bind_phoneNum {
+  width: 100%;
+  height: px2em(93px);
+  background-color: #fff;
+  border-bottom: px2em(2px) solid #ececec;
+  font-family: "Microsoft YaHei";
+  line-height: px2em(93px);
+  color: #666;
+  font-size: px2em(25px);
+}
+
+.check_phoneNum {
+  width: 100%;
+  height: px2em(93px);
+  background-color: #fff;
+  border-bottom: px2em(2px) solid #ececec;
+  font-family: "Microsoft YaHei";
+  line-height: px2em(93px);
+  color: #666;
+  font-size: px2em(30px);
+}
+
+.littletip {
+  width: px2em(300px);
+  height: px2em(20px);
+  font-family: "Microsoft YaHei";
+  line-height: px2em(20px);
+  color: #666;
+  font-size: px2em(25px);
+  margin: px2em(20px) auto;
+}
+
+.bind_cn_characters {
+  width: px2em(165px);
+  height: px2em(93px);
+  float: left;
+  letter-spacing: px2em(4px);
+  text-align: center;
+}
+
+.check_cn_characters {
+  width: px2em(290px);
+  height: px2em(93px);
+  float: left;
+  text-align: center;
+}
+
+.bind_sendCode {
+  width: px2em(143px);
+  height: px2em(65px);
+  float: right;
+  background-color: #4a8ed9;
+  color: #fff;
+  -webkit-border-radius: 4px;
+  text-align: center;
+  line-height: px2em(65px);
+  margin: px2em(16px) px2em(25px) px2em(15px) 0;
+}
+
+.bind_confirm {
+  background: #1bb862;
+  height: px2em(86px);
+  width: px2em(550px);
+  -webkit-border-radius: px2em(43px);
+  float: left;
+  margin-top: px2em(40px);
+}
+.give_confirm {
+  background: #1bb862;
+  height: px2em(86px);
+  width: px2em(550px);
+  -webkit-border-radius: px2em(43px);
+  float: left;
+  margin-top: px2em(40px);
+}
+
+.bind_return {
+  background: #4a8ed9;
+  height: px2em(86px);
+  width: px2em(550px);
+  -webkit-border-radius: px2em(43px);
+  float: left;
+  margin-top: px2em(25px);
+}
+
+.bind_code_num,
+.bind_phone_num {
+  height: px2em(65px);
+  width: px2em(300px);
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+  font-size: px2em(25px);
+  color: #666;
+  letter-spacing: px2em(4px);
+  line-height: px2em(65px);
+  margin: px2em(16px) 0 px2em(15px);
+}
+
+.bind_button {
+  width: px2em(550px);
+  margin: 0 auto;
+  height: px2em(265px);
+  font-size: px2em(30px);
+  font-family: "Microsoft YaHei";
+  letter-spacing: px2em(4px);
+  color: #fff;
+  text-align: center;
+  line-height: px2em(86px);
+  margin-top: px2em(115px);
+}
+.give_button {
+  width: px2em(550px);
+  margin: 0 auto;
+  height: px2em(265px);
+  font-size: px2em(30px);
+  font-family: "Microsoft YaHei";
+  letter-spacing: px2em(4px);
+  color: #fff;
+  text-align: center;
+  line-height: px2em(86px);
+  margin-top: px2em(115px);
+}
+.backstage_info {
+  width: 100%;
+  height: px2em(405px);
+  background-color: #4a8ed9;
+}
+
+.backstage_userheadpic {
+  position: relative;
+  width: px2em(118px);
+  height: px2em(118px);
+  background-color: #fff;
+  -webkit-border-radius: px2em(59px);
+  margin: 0 auto;
+  top: px2em(124px);
+}
+
+.backstage_userinfo {
+  width: px2em(455px);
+  height: px2em(88px);
+  margin: 0 auto;
+  position: relative;
+  color: #fff;
+  font-size: px2em(23px);
+  font-family: "Microsoft YaHei";
+  letter-spacing: px2em(3px);
+  top: px2em(165px);
+}
+
+.backstage_usernickname {
+  width: px2em(216px);
+  height: px2em(44px);
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.backstage_userrolename {
+  width: px2em(216px);
+  height: px2em(44px);
+  float: left;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.backstage_userdiamond {
+  width: px2em(216px);
+  height: px2em(44px);
+  float: right;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.backstage_userclick {
+  height: px2em(75px);
+  width: 100%;
+  background-color: #1bb861;
+  color: #fff;
+  font-family: "Microsoft YaHei";
+  letter-spacing: px2em(3px);
+}
+
+.backstage_usergive {
+  float: left;
+  width: 50%;
+  height: px2em(75px);
+}
+
+.backstage_userrecord {
+  float: right;
+  width: 49%;
+  height: px2em(75px);
+}
+
+.backstage_usergive span {
+  float: right;
+  width: px2em(220px);
+  height: px2em(75px);
+  text-indent: px2em(15px);
+  line-height: px2em(75px);
+  font-size: px2em(30px);
+  letter-spacing: px2em(4px);
+}
+
+.backstage_userrecord span {
+  width: px2em(220px);
+  height: px2em(75px);
+  float: left;
+  margin-left: px2em(50px);
+  text-indent: px2em(15px);
+  line-height: px2em(75px);
+  font-size: px2em(30px);
+  letter-spacing: px2em(4px);
+}
+
+.backstage_userclick img {
+  float: left;
+  margin-top: px2em(20px);
+}
+
+.give {
+  width: px2em(44px);
+  height: px2em(29px);
+}
+
+.record {
+  width: px2em(30px);
+  height: px2em(32px);
+}
+
+.backstage_fade {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+}
+
+.backstage_dialog {
+  width: px2em(550px);
+  height: px2em(344px);
+  background-color: #ececec;
+  position: absolute;
+  top: px2em(380px);
+  left: px2em(45px);
+  -webkit-border-radius: px2em(10px);
+  font-size: px2em(35px);
+  font-family: "Microsoft YaHei";
+}
+
+.dialog-content {
+  color: #666;
+  width: px2em(230px);
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: px2em(108px);
+}
+
+.dialog3-content {
+  color: #666;
+  width: px2em(230px);
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: px2em(108px);
+}
+
+.dialog-confirm, .dialog2-confirm {
+  width: px2em(297px);
+  height: px2em(87px);
+  background-color: #4a8ed9;
+  margin: 0 auto;
+  color: #fff;
+  display: block;
+  text-align: center;
+  line-height: px2em(87px);
+  -webkit-border-radius: px2em(10px);
+  position: relative;
+  top: px2em(177px);
+}
+
+.bindsuccess_phoneNum {
+  width: 100%;
+  height: px2em(93px);
+  background-color: #fff;
+  border-bottom: px2em(2px) solid #ececec;
+  font-family: "Microsoft YaHei";
+  color: #666;
+  font-size: px2em(25px);
+}
+
+.bindsuccess_cn_characters {
+  width: px2em(137px);
+  height: px2em(55px);
+  background-color: #bbb;
+  float: left;
+  color: #ececec;
+  line-height: px2em(55px);
+  letter-spacing: px2em(4px);
+  text-align: center;
+  -webkit-border-radius: px2em(5px);
+  margin: px2em(20px) 0 0 px2em(10px);
+}
+
+.bindsuccess_unbind {
+  background: #4a8ed9;
+  height: px2em(86px);
+  width: px2em(550px);
+  -webkit-border-radius: px2em(43px);
+  float: left;
+  margin-top: px2em(40px);
+}
+
+.bindsuccess_return {
+  background: #1bb862;
+  height: px2em(86px);
+  width: px2em(550px);
+  -webkit-border-radius: px2em(43px);
+  float: left;
+  margin-top: px2em(25px);
+}
+
+.bindsuccess_phone_num {
+  height: px2em(93px);
+  width: px2em(300px);
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+  font-size: px2em(25px);
+  color: #666;
+  letter-spacing: px2em(4px);
+  line-height: px2em(93px);
+  float: left;
+  margin-left: px2em(25px);
+}
+
+.bindsuccess_button {
+  width: px2em(550px);
+  margin: 0 auto;
+  height: px2em(265px);
+  font-size: px2em(30px);
+  font-family: "Microsoft YaHei";
+  letter-spacing: px2em(4px);
+  color: #fff;
+  text-align: center;
+  line-height: px2em(86px);
+  margin-top: px2em(208px);
+}
+
+.tips {
+  width: px2em(480);
+  font-size: px2em(25px);
+  color: #666;
+  font-family: "Microsoft YaHei";
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: px2em(3px);
+  margin-top: px2em(20px);
+}
+
+.get_code {
+  width: 100%;
+  height: px2em(93px);
+  position: relative;
+  top: px2em(30px);
+}
+
+.get_code ul {
+  width: px2em(455px);
+  height: px2em(93px);
+  margin: 0 auto;
+  font-family: "Microsoft YaHei";
+}
+
+.getCode {
+  width: px2em(177px);
+  height: px2em(75px);
+  float: left;
+  background-color: #4a8ed9;
+  -webkit-border-radius: 4px;
+  text-align: center;
+  line-height: px2em(75px);
+  margin-top: px2em(16px);
+  font-family: "Microsoft YaHei";
+  letter-spacing: px2em(2px);
+  color: #fff;
+  list-style-type: none;
+  font-size: px2em(27px);
+  float: left;
+}
+
+.getCode1 {
+  width: px2em(177px);
+  height: px2em(75px);
+  float: left;
+  background-color: #4a8ed9;
+  -webkit-border-radius: 4px;
+  text-align: center;
+  line-height: px2em(75px);
+  margin-top: px2em(16px);
+  font-family: "Microsoft YaHei";
+  letter-spacing: px2em(2px);
+  color: #fff;
+  list-style-type: none;
+  font-size: px2em(27px);
+  float: left;
+}
+
+.get_code_num {
+  height: px2em(70px);
+  width: px2em(255px);
+  margin-top: px2em(16px);
+  float: right;
+  font-size: px2em(30px);
+  letter-spacing: px2em(3px);
+  color: #666;
+  text-align: center;
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+}
+.get_unbind_code_num {
+  height: px2em(70px);
+  width: px2em(255px);
+  margin-top: px2em(16px);
+  float: right;
+  font-size: px2em(30px);
+  letter-spacing: px2em(3px);
+  color: #666;
+  text-align: center;
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+}
+
+.unbind_button {
+  width: px2em(550px);
+  margin: 0 auto;
+  height: px2em(86px);
+  font-size: px2em(30px);
+  font-family: "Microsoft YaHei";
+  letter-spacing: px2em(4px);
+  color: #fff;
+  text-align: center;
+  line-height: px2em(86px);
+  position: relative;
+  top: px2em(253px);
+}
+
+.unbind_click {
+  background: #4a8ed9;
+  height: px2em(86px);
+  width: px2em(550px);
+  -webkit-border-radius: px2em(43px);
+  float: left;
+}
+
+.bindphone_button {
+  background: #1bb862;
+  height: px2em(86px);
+  width: px2em(550px);
+  -webkit-border-radius: px2em(43px);
+  float: left;
+  position: relative;
+  top: px2em(113px);
+}
+
+.login_confirm {
+  height: px2em(87px);
+  width: px2em(520px);
+  position: relative;
+  margin: 0 auto;
+  font-family: "Microsoft YaHei";
+  font-size: px2em(30px);
+  top: px2em(150px);
+}
+
+.right {
+  width: px2em(247px);
+  height: px2em(77px);
+  background-color: #1bb861;
+  color: #fff;
+  display: block;
+  text-align: center;
+  line-height: px2em(77px);
+  -webkit-border-radius: px2em(10px);
+  top: px2em(177px);
+  float: left;
+}
+
+.cancel {
+  width: px2em(247px);
+  height: px2em(77px);
+  background-color: #4a8ed9;
+  color: #fff;
+  display: block;
+  text-align: center;
+  line-height: px2em(77px);
+  -webkit-border-radius: px2em(10px);
+  top: px2em(177px);
+  float: right;
+}
+
+.gift_head {
+  width: 100%;
+  height: px2em(90px);
+  background-color: #4a8ed9;
+}
+
+.return_arrow {
+  width: px2em(53px);
+  height: px2em(53px);
+  float: left;
+  margin: px2em(18px) 0 0 px2em(18px);
+}
+
+.gift_recent {
+  font-size: px2em(30px);
+  color: #fff;
+  letter-spacing: px2em(4px);
+  float: right;
+  margin: px2em(20px) px2em(20px) 0 0;
+  font-family: "Microsoft YaHei";
+}
+
+.gift_info {
+  background-color: #fff;
+  -webkit-border-radius: px2em(25px);
+  width: px2em(610px);
+  min-height: px2em(172px);
+  margin: 0 auto;
+  margin-top: px2em(15px);
+  font-family: "Microsoft YaHei";
+}
+
+.gift_list li {
+  border-bottom: px2em(3px) solid #ececec;
+  height: px2em(86px);
+  width: px2em(610px);
+  line-height: px2em(86px);
+}
+
+.roleName {
+  font-size: px2em(27px);
+  float: left;
+  margin-left: px2em(185px);
+  color: #333;
+}
+
+.account {
+  font-size: px2em(27px);
+  float: right;
+  margin-right: px2em(145px);
+  color: #333;
+}
+
+.list_addnew {
+  height: px2em(86px);
+  width: px2em(610px);
+}
+
+.add_plus {
+  width: px2em(35px);
+  height: px2em(35px);
+  margin: px2em(22px) 0 0 px2em(40px);
+}
+
+.list_num {
+  font-size: px2em(35px);
+  color: #c9c9c9;
+  height: px2em(86px);
+  line-height: px2em(86px);
+  float: left;
+  width: px2em(120px);
+  text-align: center;
+}
+
+.rolename_data, .account_data {
+  font-size: px2em(25px);
+  color: #666;
+  height: px2em(86px);
+  line-height: px2em(86px);
+  float: left;
+  letter-spacing: px2em(3px);
+  outline: none;
+  border: none;
+}
+
+.rolename_data {
+  width: px2em(205px);
+  text-align: center;
+}
+
+.account_data {
+  width: px2em(170px);
+  text-align: center;
+}
+
+.delete_data {
+  height: px2em(86px);
+  line-height: px2em(86px);
+  float: right;
+  width: px2em(32px);
+  height: px2em(32px);
+  margin: px2em(27px) px2em(25px) 0 0;
+}
+
+.total_account {
+  font-size: px2em(25px);
+  text-align: center;
+}
+
+.recent_gift_list {
+  background-color: #fff;
+  width: px2em(610px);
+  min-height: px2em(172px);
+  margin: 0 auto;
+  -webkit-border-radius: px2em(25px);
+  margin-top: px2em(15px);
+}
+
+.give_img {
+  width: px2em(42px);
+  height: px2em(27px);
+  float: right;
+  margin: px2em(26px) px2em(54px) 0 0;
+}
+
+.give_roleName,
+.give_account,
+.give_date,
+.give_gift {
+  font-size: px2em(25px);
+  color: #000;
+  height: px2em(86px);
+  line-height: px2em(86px);
+  float: left;
+  font-family: "Microsoft YaHei";
+  text-align: center;
+  margin-left: px2em(45px);
+}
+
+.give_date_data {
+  width: px2em(190px);
+  height: px2em(70px);
+  float: left;
+  line-height: px2em(40px);
+  text-align: center;
+  font-size: px2em(23px);
+}
+
+.recent_gift_list li {
+  border-bottom: px2em(3px) solid #ececec;
+  height: px2em(86px);
+  width: px2em(610px);
+  line-height: px2em(86px);
+}
+
+.recent_list_data {
+  font-size: px2em(25px);
+  color: #666;
+  letter-spacing: px2em(2px);
+}
+
+.give_rolename_data {
+  float: left;
+  width: px2em(210px);
+  text-align: center;
+  height: px2em(86px);
+}
+
+.give_account_data {
+  float: left;
+  width: px2em(105px);
+  text-align: center;
+  height: px2em(86px);
+  line-height: px2em(86px);
+}
+
+.search_user {
+  height: px2em(60px);
+  width: px2em(610px);
+  margin: 0 auto;
+  margin-top: px2em(15px);
+}
+
+.input_username {
+  border: none;
+  outline: none;
+  width: px2em(465px);
+  height: px2em(60px);
+  float: left;
+  font-size: px2em(25px);
+  font-family: "Microsoft YaHei";
+  text-indent: px2em(25px);
+}
+
+.input_username::-webkit-input-placeholder {
+  text-align: center;
+  line-height: px2em(32px);
+  background: url("../images/search.png") no-repeat;
+  background-size: px2em(30px) px2em(30px);
+  background-position: px2em(135px) px2em(3px);
+}
+
+.search_button {
+  width: px2em(137px);
+  height: px2em(60px);
+  line-height: px2em(60px);
+  float: right;
+  color: #fff;
+  text-align: center;
+  font-size: px2em(30px);
+  font-family: "Microsoft YaHei";
+  background-color: #3a77ba;
+  -webkit-border-radius: px2em(7px);
+}
+
+.search_img {
+  width: px2em(30px);
+  height: px2em(30px);
+  position: absolute;
+  top: px2em(120px);
+  left: px2em(130px);
+}
+
+.open_square {
+  height: px2em(42px);
+  width: px2em(42px);
+  background-color: #fff;
+  -webkit-border-radius: px2em(21px);
+  float: right;
+  margin: px2em(3px) px2em(3px) 0 0;
+}
+
+.off_square {
+  height: px2em(42px);
+  width: px2em(42px);
+  background-color: #fff;
+  -webkit-border-radius: px2em(21px);
+  float: left;
+  margin: px2em(3px) 0 0 px2em(3px);
+}
+
+.open_protect {
+  height: px2em(48px);
+  width: px2em(92px);
+  background-color: #4bd764;
+  -webkit-border-radius: px2em(27px);
+  float: right;
+  margin: px2em(23px) px2em(25px) 0 0;
+}
+
+.off_protect {
+  height: px2em(48px);
+  width: px2em(92px);
+  background-color: #c8c8c8;
+  -webkit-border-radius: px2em(27px);
+  float: right;
+  margin: px2em(23px) px2em(25px) 0 0;
+}
+
